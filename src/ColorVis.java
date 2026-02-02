@@ -45,13 +45,13 @@ public class ColorVis extends JPanel {
         if (normedN < 0)
             return Color.BLACK;
         //original spectrum:
-        int red = (int) (255 * normedN);
-        int green = 0;
-        int blue = 255 - (int) (255 * normedN);
+        //int red = (int) (255 * normedN);
+        //int green = 0;
+        //int blue = 255 - (int) (255 * normedN);
         //sine spectrum:
-        //int red = (int) (127.5 * (1 + Math.sin(3.0 * Math.PI * normedN)));
-        //int green = (int) (127.5 * (1 + Math.sin(3.0 * Math.PI * normedN + 2.0 * Math.PI / 3.0)));
-        //int blue = (int) (127.5 * (1 + Math.sin(3.0 * Math.PI * normedN + 4.0 * Math.PI / 3.0)));
+        int red = (int) (127.5 * (1 + Math.sin(3.0 * Math.PI * normedN)));
+        int green = (int) (127.5 * (1 + Math.sin(3.0 * Math.PI * normedN + 2.0 * Math.PI / 3.0)));
+        int blue = (int) (127.5 * (1 + Math.sin(3.0 * Math.PI * normedN + 4.0 * Math.PI / 3.0)));
         return new Color(red, green, blue);
     }
 }
