@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ColorVisRunner",
+            "request": "launch",
+            "mainClass": "ColorVisRunner",
+            "projectName": "FractalExplorer_4b35e1d1"
+        },
+        {
+            "type": "java",
+            "name": "MandelbrotUnitTest",
+            "request": "launch",
+            "mainClass": "MandelbrotUnitTest",
+            "projectName": "FractalExplorer_4b35e1d1"
+        },
+        {
+            "type": "java",
+            "name": "CUT",
+            "request": "launch",
+            "mainClass": "CUT",
+            "projectName": "FractalExplorer_4b35e1d1"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "FractalExplorer_4b35e1d1"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
